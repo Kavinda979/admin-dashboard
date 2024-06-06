@@ -31,7 +31,7 @@ function SideBar() {
 
 {/*second row*/}
       <div
-        className="flex items-center p-4 gap-2 hover:bg-[#ebe6ed1a] rounded-lg"
+        className="flex items-center p-4 gap-2 hover:bg-[#ebe6ed1a] rounded-2xl"
         style={{
           width: "240px",
           height: "40px",
