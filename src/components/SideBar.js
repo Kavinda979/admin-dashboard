@@ -22,7 +22,6 @@ function SideBar() {
         >
           <h3
             className="font-inter text-xl font-semibold leading-8 text-center whitespace-nowrap text-white"
-            style={{ letterSpacing: "-0.02em" }}
           >
             Acmy Solutions
           </h3>

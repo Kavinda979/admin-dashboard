@@ -7,14 +7,18 @@ function NavigationBar() {
   return (
     <div>
       <nav
-        class="bg-white shadow-md fixed w-full h-20"
-        style={{ width: "1168px", height: "80px", left: "272px" }}
+        class="bg-white shadow-md"
+        style={{ width: "1076px", height: "80px", left: "272px" }}
       >
         <div class="max-w-screen-lg mx-auto px-4 flex justify-between items-center h-full">
           <div class="text-xl font-semibold ">Dashboard</div>
           <div class="flex items-center space-x-4">
             <div>
-              <img src={bellIcon} alt="Bell Icon" class="w-6 h-6" />
+              <img
+                src={bellIcon}
+                alt="Bell Icon"
+                class="w-6 h-6 font-semibold"
+              />
             </div>
             <div>
               <img
@@ -27,7 +31,7 @@ function NavigationBar() {
               <img
                 src={downListIcon}
                 alt="Dropdown Icon"
-                class="w-6 h-6 pr-1.5"
+                class="w-6 h-6 pr-1.5 font-semibold"
               />
             </div>
           </div>
