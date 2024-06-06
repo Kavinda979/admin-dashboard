@@ -1,5 +1,7 @@
 import "./App.css";
+import ActivityFeed from "./components/ActivityFeed";
 import NavigationBar from "./components/NavigationBar";
+import Piechart from "./components/Piechart";
 import Reminder from "./components/Reminder";
 import SideBar from "./components/SideBar";
 import Tasks from "./components/Tasks";
@@ -20,7 +22,14 @@ function App() {
             <div>
               <Tasks />
             </div>
-            <div>col2</div>
+            <div className="grid grid-rows-2 gap-2">
+              <div>
+                <ActivityFeed />
+              </div>
+              <div>
+                <Piechart />
+              </div>
+            </div>
           </div>
         </div>
       </div>
