@@ -1,5 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import bellIcon from "../assets/icon/bell-ringing-03.svg";
+
+export default function TodoList(){
+    const [todos,setTodos]=useState([{}])
+}
 
 function Tasks() {
   return (
@@ -38,18 +42,19 @@ function Tasks() {
             src={bellIcon}
             alt="bellicon"
             style={{
-              padding: "2px",
+              padding: "4px",
               width: "20px",
               height: "20px",
               backgroundColor: "blue",
               borderRadius: "8px",
+              fontSize: "4px",
             }}
           />
         </div>
         <div
           className="font-inter text-base font-normal leading-6 text-left"
           style={{
-            width:'450px',
+            width: "480px",
             paddingTop: "14px",
             paddingBottom: "14px",
             paddingLeft: "10px",
@@ -61,16 +66,17 @@ function Tasks() {
           style={{
             paddingTop: "14px",
             paddingBottom: "14px",
+            paddingLeft: "20px",
           }}
         >
           <h2
             style={{
-              alignItems:'center',
+              color: "white",
               backgroundColor: "blue",
               width: "auto",
               borderRadius: "8px",
               height: "26px",
-              padding:'5px'
+              padding: "1px",
             }}
           >
             flex3
@@ -81,7 +87,7 @@ function Tasks() {
           style={{
             paddingTop: "14px",
             paddingBottom: "14px",
-            paddingLeft: "50px",
+            paddingLeft: "10px",
           }}
         >
           Sep 16
@@ -91,4 +97,3 @@ function Tasks() {
   );
 }
 
-export default Tasks;
