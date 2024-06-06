@@ -4,7 +4,7 @@ import close from "../assets/icon/Icon@2x.svg";
 function Reminder() {
   return (
     <div
-      class="relative"
+      className="relative"
       style={{
         width: "1060px",
         height: "120px",
@@ -13,7 +13,7 @@ function Reminder() {
       }}
     >
       <button
-        class="absolute p-0"
+        className="absolute p-0"
         style={{
           width: "12px",
           height: "12px",
@@ -23,22 +23,22 @@ function Reminder() {
           opacity: "1",
         }}
       >
-        <img src={close} alt="Close" class="w-full h-full" />
+        <img src={close} alt="Close" className="w-full h-full" />
       </button>
       <div
-        class="grid grid-rows-2"
+        className="grid grid-rows-2"
         style={{ paddingTop: "18px", paddingLeft: "16px" }}
       >
         <div>
-          <h3 class="font-sans-serif text-2xl font-semibold leading-8 tracking-tight text-left">
+          <h3 className="font-sans-serif text-2xl font-semibold leading-8 tracking-tight text-left">
             Welcome back, John Doe
           </h3>
         </div>
-        <div class="font-inter text-base font-normal leading-6 text-left text-[#757575]">
+        <div className="font-inter text-base font-normal leading-6 text-left text-[#757575]">
           The end of the year is coming. Are you planning your performance
           interviews? You can do this super efficiently with Acmy.
           <br />
-          <a href="#" class=" text-[#BC006D] hover:underline">
+          <a href="#" className=" text-[#BC006D] hover:underline">
             Look here for more information
           </a>
         </div>
