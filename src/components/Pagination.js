@@ -21,7 +21,7 @@ function MyComponent({ data, itemsPerPage }) {
     <div>
    
       {currentPageData.map((item, index) => (
-        <div key={index}>{/* Render your data item here */}</div>
+        <div key={index}>{}</div>
       ))}
 
    

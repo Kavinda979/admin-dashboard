@@ -13,13 +13,13 @@ function NavigationBar() {
         <div className="max-w-screen-lg mx-auto px-4 flex justify-between items-center h-full">
           <div className="text-xl font-semibold ">Dashboard</div>
           <div className="flex items-center space-x-4">
-            <div>
+            <button>
               <img
                 src={bellIcon}
                 alt="Bell Icon"
                 className="w-6 h-6 font-semibold"
               />
-            </div>
+            </button>
             <div>
               <img
                 src={profileImage}
@@ -27,13 +27,13 @@ function NavigationBar() {
                 className="w-8 h-8 rounded-full"
               />
             </div>
-            <div>
+            <button>
               <img
                 src={downListIcon}
                 alt="Dropdown Icon"
                 className="w-6 h-6 pr-1.5 font-semibold"
               />
-            </div>
+            </button>
           </div>
         </div>
       </nav>
