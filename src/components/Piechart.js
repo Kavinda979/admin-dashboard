@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Piechart() {
   return (
@@ -14,12 +14,11 @@ function Piechart() {
         style={{ width: "full", height: "49px", border: "1px solid #D0D5DD" }}
       >
         <div className="pt-3 pl-4 font-inter text-lg font-medium leading-6 text-left">
-          Activity Feed
+          Tasks Priorities
         </div>
       </div>
-      
-      </div>
-  )
+    </div>
+  );
 }
 
-export default Piechart
+export default Piechart;
